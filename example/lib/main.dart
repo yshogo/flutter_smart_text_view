@@ -81,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           SmartText(
             text:
-            'Hi, this is an example for hashtag example #helloWorld',
+            'Hi, this is an example for hashtag example　#こんにちわ',
             onTagClick: (tag) {
               _scaffoldKey.currentState.showSnackBar(
                 SnackBar(
@@ -95,7 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           SmartText(
             text:
-            'Hi, this is an example for both link example http://www.google.com and hashtag example #helloWorld',
+            'Hi, this is an example for both link example http://www.google.com and hashtag example　#うおお',
             onOpen: (url) async {
               _scaffoldKey.currentState.showSnackBar(
                 SnackBar(
